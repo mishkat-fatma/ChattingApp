@@ -1,10 +1,15 @@
 {
   "expo": {
-    "plugins": [
-      "expo-router"
-    ],
+    "name": "ChatApp",
+    "slug": "chatapp",
+    "plugins": ["expo-router"],
     "android": {
       "package": "com.mishkat_fatma.chatapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
     }
   }
 }
