@@ -1,5 +1,10 @@
 {
   "expo": {
-    "plugins": ["expo-router"]
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.mishkat_fatma.chatapp"
+    }
   }
 }
