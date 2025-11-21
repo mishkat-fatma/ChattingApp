@@ -15,13 +15,13 @@ Supports 1:1 messaging, friend requests, live updates, and cross-platform access
 📱 Clean, responsive UI across Android & Web
 
 🧰 Tech Stack
-Frontend:
+🚀Frontend:
 
 React Native
 Expo Router
 TypeScript
 React Native Components
-Backend
+🚀Backend:
 Firebase Auth
 Firebase Firestore
 Deployment
