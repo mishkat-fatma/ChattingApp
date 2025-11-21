@@ -18,11 +18,20 @@ Supports 1:1 messaging, friend requests, live updates, and cross-platform access
 🚀Frontend:
 
 React Native
+
 Expo Router
+
 TypeScript
+
 React Native Components
+
 🚀Backend:
+
 Firebase Auth
+
 Firebase Firestore
-Deployment
+
+🚀Deployment:
+
+Vercel
 Vercel (Web deployment)
