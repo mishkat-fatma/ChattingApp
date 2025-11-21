@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+📱 Chatting App — Real-Time Messaging with React Native + Firebase
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A real-time chat application built with React Native, Expo Router, and Firebase.
+Supports 1:1 messaging, friend requests, live updates, and cross-platform access with a deployed web version on Vercel.
 
-## Get started
+🚀 Features
 
-1. Install dependencies
+🔐 Authentication (Email/Password using Firebase Auth)
+💬 Real-time 1:1 chat using Firestore listeners
+👥 Friend requests system (send, accept, reject)
+🔎 Search users by email
+⚡ Instant message delivery with onSnapshot live listeners
+🗂️ Firestore data structure with chats, users & friendRequests collections
+🌐 Web version deployed on Vercel
+📱 Clean, responsive UI across Android & Web
 
-   ```bash
-   npm install
-   ```
+🧰 Tech Stack
+Frontend:
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+React Native
+Expo Router
+TypeScript
+React Native Components
+Backend
+Firebase Auth
+Firebase Firestore
+Deployment
+Vercel (Web deployment)
